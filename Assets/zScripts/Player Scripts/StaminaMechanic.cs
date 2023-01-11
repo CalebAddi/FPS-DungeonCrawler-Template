@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StaminaMechanic : MonoBehaviour
 {
-    private PlayerController_fps controller;
+    private PlayerController controller;
 //===========================================================//
     [Header("Stamina Controller Settings")]
     public float playerStamina = 100f;
@@ -29,7 +29,7 @@ public class StaminaMechanic : MonoBehaviour
 
     private void Awake() 
     {
-        controller = GetComponent<PlayerController_fps>();
+        controller = GetComponent<PlayerController>();
     }
 
     private void Update() 

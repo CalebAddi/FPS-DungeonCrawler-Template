@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using DungeonCrawl.WeaponController;
 
-public class PlayerController_fps : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     #region - Player Settings -
     public bool CanMove { get; private set; } = true;
